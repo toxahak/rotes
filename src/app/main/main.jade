@@ -1,0 +1,9 @@
+.container-fluid.router
+	.row
+		.col-lg-offset-1.col-md-5.col-lg-4.router__controls
+			point-form(on-create="main.addPoint(name)")
+			.router__points-list
+				point-item(ng-repeat="point in main.points" point="point")
+		.col-md-7.col-lg-6.router__map
+			map(markers="main.points" center="main.mapCenter")
+div Center: {{main.mapCenter}}

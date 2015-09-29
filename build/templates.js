@@ -1,0 +1,2 @@
+angular.module("templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("index.html","<!DOCTYPE html><html lang=\"en\" data-ng-app=\"app\"><head><base href=\"/\"><meta charset=\"utf-8\"><title>Routes app</title><meta name=\"description\" content=\"Form autosave feature\"></head><body><div id=\"app\" ui-view=\"\" class=\"app\"> </div></body></html>");
+$templateCache.put("app/app.html","<div ng-click=\"click\" class=\"btn btn-primary\">Как же меня это заебало{{ dots }}</div>");}]);
