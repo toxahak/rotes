@@ -8,6 +8,6 @@
     "angular-google-maps": "~2.2.1",
     "angular-ui-router": "~0.2.13",
     "bootstrap": "~3.3.2",
-    "lodash": "~2.4.1"
+    "lodash": "~3.10.1"
   }
 }
